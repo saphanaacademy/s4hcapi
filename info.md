@@ -7,6 +7,12 @@
 
 This info file contains links to product downloads, help docs, etc. relevant to the S/4HANA Cloud API's video series.
 
+## Prerequisites
+
+* You have access to a configured S/4HANA Cloud system
+* You have set up an SAP Cloud Platform (Trial or Starter) account
+* You have installed [PostMan](https://www.getpostman.com/downloads/)
+
 ## Getting Started With the S/4HANA Cloud API's
 
 This video series is based on the work by Divya Mary at the following blogs.
