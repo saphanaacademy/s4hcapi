@@ -14,6 +14,9 @@ This info file contains links to product downloads, help docs, etc. relevant to 
 * You have installed [PostMan](https://www.getpostman.com/downloads/)
 
 ## Getting Started With the S/4HANA Cloud API's
+1) Video 1
+1) Video 2
+1) Video 3
 
 This video series is based on the work by Divya Mary at the following blogs.
 
