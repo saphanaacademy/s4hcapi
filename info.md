@@ -5,7 +5,7 @@
 
 ## Description
 
-This info file contains links to product downloads, help docs, etc. relevant to the S/4HANA Cloud API's video series. Please note that this info file is a work in progress and subject to changes and additions.
+This info file contains links to product downloads, help docs, etc. relevant to the S/4HANA Cloud API video series. Please note that this info file is a work in progress and subject to changes and additions.
 
 ## Prerequisites
 
