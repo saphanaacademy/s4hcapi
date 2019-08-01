@@ -14,7 +14,7 @@ This info file contains links to product downloads, help docs, etc. relevant to 
 * You have installed [PostMan](https://www.getpostman.com/downloads/).
 
 ## Getting Started With the S/4HANA Cloud API'
-Video 1) [Video 1 - Getting Started with the SAP API Business Hub](#v1apibh)
+1) [Video 1 - Getting Started with the SAP API Business Hub](#v1apibh)
 1) [Video 2 - Creating a Fiori App in SAP Cloud Platform](#v2cfa)
 1) [Video 3 - Creating a Communication Arrangement on Your S/4HANA Cloud System](#v3cca)
 
