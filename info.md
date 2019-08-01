@@ -14,16 +14,25 @@ This info file contains links to product downloads, help docs, etc. relevant to 
 * You have installed [PostMan](https://www.getpostman.com/downloads/)
 
 ## Getting Started With the S/4HANA Cloud API'
-1) [Video 1 - Getting Started with the SAP API Business Hub](#abapproj)
-1) [Video 2 - Exploring and Testing an API (Planned Orders) in the SAP API Business Hub](#abapproj)
-1) [Video 3 - Creating a Communication Arrangement on Your S/4HANA Cloud System](#abapproj)
+1) [Video 1 - Getting Started with the SAP API Business Hub](#v1apibh)
+1) [Video 2 - Creating a Fiori App in SAP Cloud Platform](#v2cfa)
+1) [Video 3 - Creating a Communication Arrangement on Your S/4HANA Cloud System](#v3cca)
 
-### <a name="abapproj"></a>Video 1 - Getting Started with the SAP API Business Hub
+### <a name="v1apibh"></a>Video 1 - Getting Started with the SAP API Business Hub
 
+[SAP API Business Hub](https://api.sap.com/)
 
+[PostMan](https://www.getpostman.com/downloads/)
 
+### <a name="v2cfa"></a>Video 2 - Creating a Fiori App in SAP Cloud Platform
+
+[SAP Cloud Platform Trial Account](https://account.hanatrial.ondemand.com/cockpit/#/home/trialhome)
+
+### <a name="v3cca"></a>Video 3 - Creating a Communication Arrangement on Your S/4HANA Cloud System
 
 [More info on Communication Arrangements](https://blogs.sap.com/2017/09/15/what-is-what-your-quick-reference-to-communication-management-and-identity-access-management-artifacts-in-s4hana/)
+
+## Additional Information
 
 This video series is based on the work by Divya Mary at the following blogs.
 
