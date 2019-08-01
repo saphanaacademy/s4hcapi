@@ -13,16 +13,15 @@ This info file contains links to product downloads, help docs, etc. relevant to 
 * You have set up an SAP Cloud Platform (Trial or Starter) account
 * You have installed [PostMan](https://www.getpostman.com/downloads/)
 
-## Getting Started With the S/4HANA Cloud API's
-1) Video 1
-1) Video 2
-1) Video 3
+## Getting Started With the S/4HANA Cloud API'
+1) [Video 1 - Getting Started with the SAP API Business Hub](#abapproj)
+1) [Video 2 - Exploring and Testing an API (Planned Orders) in the SAP API Business Hub](#abapproj)
+1) [Video 3 - Creating a Communication Arrangement on Your S/4HANA Cloud System](#abapproj)
 
-## Video 1
+### <a name="abapproj"></a>Video 1 - Getting Started with the SAP API Business Hub
 
-## Video 2
 
-## Video 3
+
 
 [More info on Communication Arrangements](https://blogs.sap.com/2017/09/15/what-is-what-your-quick-reference-to-communication-management-and-identity-access-management-artifacts-in-s4hana/)
 
