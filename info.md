@@ -30,7 +30,11 @@ This info file contains links to product downloads, help docs, etc. relevant to 
 
 ### <a name="v3cca"></a>Video 3 - Creating a Communication Arrangement on Your S/4HANA Cloud System
 
-[More info on Communication Arrangements](https://blogs.sap.com/2017/09/15/what-is-what-your-quick-reference-to-communication-management-and-identity-access-management-artifacts-in-s4hana/)
+For online help on roles required for creating Communication Arrangements go to [help.sap.com](https://help.sap.com/viewer/search?q=Communication%20Arrangement%20S4HANA%20Cloud) and search on "Creating a Communication Arrangement in SAP S/4HANA Cloud".
+
+For more info on Communication Arrangements please see [this blog](https://blogs.sap.com/2017/09/15/what-is-what-your-quick-reference-to-communication-management-and-identity-access-management-artifacts-in-s4hana/)
+
+
 
 ## Additional Information
 
