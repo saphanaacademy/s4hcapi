@@ -9,9 +9,9 @@ This info file contains links to product downloads, help docs, etc. relevant to 
 
 ## Prerequisites
 
-* You have access to a configured S/4HANA Cloud system
-* You have set up an SAP Cloud Platform (Trial or Starter) account
-* You have installed [PostMan](https://www.getpostman.com/downloads/)
+* You have access to a configured S/4HANA Cloud system.
+* You have set up an SAP Cloud Platform (Trial or Starter) account.
+* You have installed [PostMan](https://www.getpostman.com/downloads/).
 
 ## Getting Started With the S/4HANA Cloud API'
 1) [Video 1 - Getting Started with the SAP API Business Hub](#v1apibh)
@@ -29,6 +29,8 @@ You will need to install [PostMan](https://www.getpostman.com/downloads/) to fol
 You can create a [SAP Cloud Platform Trial Account here](https://account.hanatrial.ondemand.com/cockpit/#/home/trialhome) if you don't already have one or if you don't have a starter or development system.
 
 ### <a name="v3cca"></a>Video 3 - Creating a Communication Arrangement on Your S/4HANA Cloud System
+
+For online help for creating custom Business Roles in S/4HANA Cloud in the Maintain Business Role App please go to [help.sap.com](https://help.sap.com/viewer/search?q=Custom%20Business%20Roles) and click on "Maintain Business Roles".
 
 For online help on roles required for creating Communication Arrangements go to [help.sap.com](https://help.sap.com/viewer/search?q=Communication%20Arrangement%20S4HANA%20Cloud) and click on "Creating a Communication Arrangement in SAP S/4HANA Cloud".
 
