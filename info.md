@@ -20,9 +20,9 @@ This info file contains links to product downloads, help docs, etc. relevant to 
 
 ### <a name="v1apibh"></a>Video 1 - Getting Started with the SAP API Business Hub
 
-[SAP API Business Hub](https://api.sap.com/)
+You can access the [SAP API Business Hub here](https://api.sap.com/).
 
-[PostMan](https://www.getpostman.com/downloads/)
+You will need to install [PostMan](https://www.getpostman.com/downloads/) to follow along with some of the testing exercises in this video series.
 
 ### <a name="v2cfa"></a>Video 2 - Creating a Fiori App in SAP Cloud Platform
 
@@ -32,7 +32,7 @@ This info file contains links to product downloads, help docs, etc. relevant to 
 
 For online help on roles required for creating Communication Arrangements go to [help.sap.com](https://help.sap.com/viewer/search?q=Communication%20Arrangement%20S4HANA%20Cloud) and click on "Creating a Communication Arrangement in SAP S/4HANA Cloud".
 
-For more info on Communication Arrangements please see [this blog](https://blogs.sap.com/2017/09/15/what-is-what-your-quick-reference-to-communication-management-and-identity-access-management-artifacts-in-s4hana/)
+For more info on Communication Arrangements please see [this blog](https://blogs.sap.com/2017/09/15/what-is-what-your-quick-reference-to-communication-management-and-identity-access-management-artifacts-in-s4hana/).
 
 ## Additional Information
 
