@@ -9,7 +9,7 @@ This info file contains links to product downloads, help docs, etc. relevant to 
 
 ## Prerequisites
 
-* You have access to a configured S/4HANA Cloud (non-trial) system.
+* You have access to a configured S/4HANA Cloud (non-Trial) system.
 * You have set up an SAP Cloud Platform (Trial or Starter) account.
 * You have installed [PostMan](https://www.getpostman.com/downloads/).
 
