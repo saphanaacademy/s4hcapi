@@ -18,6 +18,8 @@ This info file contains links to product downloads, help docs, etc. relevant to 
 1) Video 2
 1) Video 3
 
+[More info on Communication Arrangements](https://blogs.sap.com/2017/09/15/what-is-what-your-quick-reference-to-communication-management-and-identity-access-management-artifacts-in-s4hana/)
+
 This video series is based on the work by Divya Mary at the following blogs.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Part 1: Discover, Explore and Consume SAP S/4HANA Cloud APIs in SAP API Business Hub](https://blogs.sap.com/2017/12/05/part-1-discover-explore-and-consume-sap-s4-hana-cloud-apis-in-sap-api-business-hub/)
