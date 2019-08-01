@@ -11,7 +11,6 @@ This info file contains links to product downloads, help docs, etc. relevant to 
 
 * You have access to a configured S/4HANA Cloud (non-Trial) system.
 * You have set up an SAP Cloud Platform (Trial or Starter) account.
-* You have installed [PostMan](https://www.getpostman.com/downloads/).
 
 ## Getting Started With the S/4HANA Cloud API's
 1) [Video 1 - Getting Started with the SAP API Business Hub](#v1apibh)
