@@ -30,7 +30,7 @@ You can create a [SAP Cloud Platform Trial Account here](https://account.hanatri
 
 ### <a name="v3cca"></a>Video 3 - Creating a Communication Arrangement on Your S/4HANA Cloud System
 
-For online help for creating custom Business Roles in S/4HANA Cloud in the Maintain Business Role App please [do a search](https://www.google.ca/search?q=help.sap.com%20s4hana%20cloud%20maintain%20business%20role) and click on the linke to "Maintain Business Roles".
+For online help for creating custom Business Roles in S/4HANA Cloud in the Maintain Business Role App please [do a search](https://www.google.ca/search?q=help.sap.com%20s4hana%20cloud%20maintain%20business%20role) and click on the link to "Maintain Business Roles SAP Help Portal".
 
 For online help on roles required for creating Communication Arrangements go to [help.sap.com](https://help.sap.com/viewer/search?q=Communication%20Arrangement%20S4HANA%20Cloud) and click on "Creating a Communication Arrangement in SAP S/4HANA Cloud".
 
