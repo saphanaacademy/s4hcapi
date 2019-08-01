@@ -26,7 +26,7 @@ You will need to install [PostMan](https://www.getpostman.com/downloads/) to fol
 
 ### <a name="v2cfa"></a>Video 2 - Creating a Fiori App in SAP Cloud Platform
 
-[SAP Cloud Platform Trial Account](https://account.hanatrial.ondemand.com/cockpit/#/home/trialhome)
+You can create a [SAP Cloud Platform Trial Account here](https://account.hanatrial.ondemand.com/cockpit/#/home/trialhome) if you don't already have one or if you don't have a starter or development system.
 
 ### <a name="v3cca"></a>Video 3 - Creating a Communication Arrangement on Your S/4HANA Cloud System
 
