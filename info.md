@@ -1,6 +1,6 @@
 <table width=100% border=0>
 <tr ><td colspan=2><h1>SAP S/4HANA Cloud</h1></td></tr>
-<tr><td><h3>S/4HANA Cloud API's</h3></td><td width=66%></br>&nbsp;Discover, Explore and Consume S/4HANA Cloud APIs</td>
+<tr><td><h3>API Video Series</h3></td><td width=66%></br>&nbsp;Discover, Explore and Consume Cloud APIs</td>
 </table>
 
 ## Description
