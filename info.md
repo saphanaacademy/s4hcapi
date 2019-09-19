@@ -7,7 +7,7 @@
 
 This info file contains links to product downloads, help docs, etc. relevant to the S/4HANA Cloud API video series and other S/4HANA Cloud video series. Please note that this info file is a work in progress and subject to changes and additions.
 
-## S/4HANA Cloud Video Series List
+## <a name="s4hcvsl"></a>S/4HANA Cloud Video Series List
 1) [Getting Started with the S/4HANA Cloud API's](#gss4hapi)
 1) [Getting Started with the SAP Open Connectors API's](#gsocapi)
 1) [Getting Started with Developing on Cloud Foundry Using the S/4HANA Cloud API's](#gscfs4hapi)
@@ -58,6 +58,10 @@ This video series is based on the work by Divya Mary at the following blogs.
 
 This video series is coming soon. Please check back in a bit.
 
+[Go back to the Video Series List](#s4hcvsl)
+
 ## <a name="gscfs4hapi"></a>Getting Started with Developing on Cloud Foundry Using the S/4HANA Cloud API's
 
 This video series is coming soon. Please check back in a bit.
+
+[Go back to the Video Series List](#s4hcvsl)
