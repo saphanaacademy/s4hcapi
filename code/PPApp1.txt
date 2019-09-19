@@ -1,0 +1,89 @@
+mta.yaml
+--------
+   requires:
+    - name: PPApp1-uaa
+    - name: PPApp1-dest
+resources:
+  - name: PPApp1-uaa
+    parameters:
+      path: ./xs-security.json
+      service-plan: application
+      service: xsuaa
+    type: org.cloudfoundry.managed-service
+  - name: PPApp1-dest
+    parameters:
+      service-plan: lite
+      service: destination
+    type: org.cloudfoundry.managed-service
+
+
+xs-security.json
+----------------
+{
+	"xsappname": "PPApp1"
+}
+
+
+package.json
+------------
+	"dependencies": {
+		"@sap/cloud-sdk-core": "^1.7.0",
+		"@sap/cloud-sdk-vdm-planned-orders-service": "^1.8.1",
+		"express": "^4.16.4"
+	},
+	"engines": {
+		"node": ">=11.0.0"
+	},
+
+
+server.js
+---------
+/*eslint no-console: 0, no-shadow: 0, new-cap: 0, quotes: 0, no-unused-vars: 0*/
+
+const {
+	PlannedOrder
+} = require('@sap/cloud-sdk-vdm-planned-orders-service');
+
+var express = require("express");
+var app = express();
+
+function getAllPlannedOrders() {
+	return PlannedOrder.requestBuilder()
+		.getAll()
+		.select(
+			PlannedOrder.MATERIAL,
+			PlannedOrder.MATERIAL_NAME,
+			PlannedOrder.PLANNED_ORDER,
+			PlannedOrder.PLANNED_ORDER_TYPE,
+			PlannedOrder.TOTAL_QUANTITY,
+			PlannedOrder.ISSUED_QUANTITY,
+			PlannedOrder.LAST_CHANGE_DATE_TIME,
+			PlannedOrder.PRODUCTION_PLANT
+		)
+		.filter(
+			PlannedOrder.TOTAL_QUANTITY.greaterOrEqual(20)
+		)
+		.execute({
+			destinationName: "S4HC"
+		});
+}
+
+app.get("/", function (req, res) {
+	res.status(200).send(
+		"<html><head><title>Digital Partner Engineering</title></head><body><h4><a href='/pp'>Planned Orders</a></h4></body></html>");
+});
+
+app.get("/pp", function (req, res) {
+	getAllPlannedOrders()
+		.then(plannedOrders => {
+			res.status(200).json(plannedOrders);
+		})
+		.catch(error => {
+			res.status(500).send(error.message);
+		});
+});
+
+var port = process.env.PORT || 3000;
+app.listen(port, function () {
+	console.info("Listening on port: " + port);
+});
