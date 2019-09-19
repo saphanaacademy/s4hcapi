@@ -58,10 +58,10 @@ This video series is based on the work by Divya Mary at the following blogs.
 
 This video series is coming soon. Please check back in a bit.
 
-[Go back to the Video Series List](#s4hcvsl)
+[Go Back to the Video Series List](#s4hcvsl)
 
 ## <a name="gscfs4hapi"></a>Getting Started with Developing on Cloud Foundry Using the S/4HANA Cloud API's
 
 This video series is coming soon. Please check back in a bit.
 
-[Go back to the Video Series List](#s4hcvsl)
+[Go Back to the Video Series List](#s4hcvsl)
