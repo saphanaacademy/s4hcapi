@@ -3,6 +3,8 @@
 <tr><td><h3>API Video Series</h3></td><td width=66%></br>&nbsp;Discover, Explore and Consume Cloud APIs</td>
 </table>
 
+<img src="/images/api.jpg">
+
 ## Description
 
 This info file contains links to product downloads, help docs, etc. relevant to the S/4HANA Cloud API video series and other S/4HANA Cloud video series. Please note that this info file is a work in progress and subject to changes and additions.
