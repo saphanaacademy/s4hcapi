@@ -7,7 +7,7 @@
 
 This info file contains links to product downloads, help docs, etc. relevant to the S/4HANA Cloud API video series and other S/4HANA Cloud video series. Please note that this info file is a work in progress and subject to changes and additions.
 
-## S/4HANA Cloud Video Series
+## S/4HANA Cloud Video Series List
 1) [Getting Started With the S/4HANA Cloud API's](#gss4hapi)
 1) [Getting Started With the SAP Open Connectors API's](#gsocapi)
 
@@ -16,18 +16,18 @@ This info file contains links to product downloads, help docs, etc. relevant to 
 1) [Video 2 - Creating a Fiori App in SAP Cloud Platform](#v2cfa)
 1) [Video 3 - Creating a Communication Arrangement on Your S/4HANA Cloud System](#v3cca)
 
-## Prerequisites
+# Prerequisites
 
 * You have access to a configured S/4HANA Cloud (non-Trial) system.
 * You have set up an SAP Cloud Platform (Trial or Starter) account.
 
-### <a name="v1apibh"></a>Video 1 - Getting Started with the SAP API Business Hub
+# <a name="v1apibh"></a>Video 1 - Getting Started with the SAP API Business Hub
 
 You can access the [SAP API Business Hub here](https://api.sap.com/).
 
 You will need to install [PostMan](https://www.getpostman.com/downloads/) to follow along with some of the testing exercises in this video series.
 
-### <a name="v2cfa"></a>Video 2 - Creating a Fiori App in SAP Cloud Platform
+# <a name="v2cfa"></a>Video 2 - Creating a Fiori App in SAP Cloud Platform
 
 You can create a [SAP Cloud Platform Trial Account here](https://account.hanatrial.ondemand.com/cockpit/#/home/trialhome) if you don't already have one or if you don't have a starter or development system.
 
