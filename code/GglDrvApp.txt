@@ -1,0 +1,161 @@
+neo app json routes added 
+
+*** needs to be edited
+
+    {
+      "path": "/DPE_OPENCONN_APIM_DEST",
+      "target": {
+        "type": "destination",
+        "name": "DPE_OPENCONN_APIM_DEST"
+      },
+      "description": "Open Connectors"
+    },
+    {
+      "path": "/s4hanacloud",
+      "target": {
+        "type": "destination",
+        "name": "DPE_S4HC_DEST",
+        "entryPath": "/i818645trial/s4hanacloud"
+      },
+      "description": "S4HANA Cloud Destination"
+    },
+    {
+      "path": "/DPE_S4HC_PLANNEDORDERS_DEST",
+      "target": {
+        "type": "destination",
+        "name": "DPE_S4HC_PLANNEDORDERS_DEST"
+      },
+      "description": "DPE_S4HC_PLANNEDORDERS_DEST"
+    },
+    {
+      "path": "/DPE_S4HC_DEST",
+      "target": {
+        "type": "destination",
+        "name": "DPE_S4HC_DEST"
+      },
+      "description": "DPE_S4HC_DEST"
+    }
+
+
+
+manifest json
+
+		"dataSources": {
+			"API_PLANNED_ORDERS": {
+				"uri": "/DPE_S4HC_DEST/i818645trial/s4hanacloud/sap/opu/odata/sap/API_PLANNED_ORDERS/",
+				"type": "OData",
+				"settings": {
+					"localUri": "localService/API_PLANNED_ORDERS/metadata.xml"
+				}
+			}
+		}
+
+app controller
+
+		onUploadToGoogleDrive: function () {
+
+			sap.ui.core.BusyIndicator.show();
+			
+			var oModel = this.getView().getModel();
+			var oExport = new sap.ui.core.util.Export({
+			exportType: new sap.ui.core.util.ExportTypeCSV({
+			separatorChar: ";",
+			charSet: "UTF-8"
+			}),
+			models: oModel,
+			rows: {
+			path: "/A_PlannedOrder"
+			},
+			columns: [{
+			name: "Planned Order",
+			template: {
+			content: {
+			path: "PlannedOrder"
+			}
+			}
+			}, {
+			name: "Production Plant",
+			template: {
+			content: {
+			path: "ProductionPlant"				
+			}
+			}
+			}, {
+			name: "Material",
+			template: {
+			content: {
+			path: "Material"
+			}
+			}
+			}, {
+			name: "Quantity",
+			template: {
+			content: {
+			path: "TotalQuantity"
+			}
+			}
+			}]
+			});
+			
+			oExport.generate().done(function (data) {
+				
+			var xhr = new XMLHttpRequest();	
+
+			xhr.onreadystatechange = function () {
+			if (xhr.readyState === XMLHttpRequest.DONE) {
+			sap.ui.core.BusyIndicator.hide();
+			MessageToast.show(xhr.responseText);
+			}
+			};
+
+            //former auth works with unmanaged destination in conjunction with set request header below
+            //xhr.open('POST', '/DPE_OPENCONN_DEST/files?path=%2Fdata.csv', false);
+
+			// attempts after switching the api management                                 
+            //xhr.open('POST', '/DPE_OPENCONN_APIM_DEST/elements/api-v2/accounts/files/?path=%2Fdata.csv', false);
+            xhr.open('POST', '/DPE_OPENCONN_APIM_DEST/i818645trial/GoogleDrive/files/?path=%2Fdata.csv', false);
+
+            // set request header has been commented out as per part-4 blog
+            //xhr.setRequestHeader("Authorization", "User VruLSAqQijo8wVYegUYKw2TA7N/7B/drQ42JCh32vLo=, Organization 7dd69c8c0a831d0d651a8e4eb5838423, Element W8ko6IYJ9/K8t9X4Nfb9wiRz2ub5AazxdFsysDMBaww="
+             //);                          
+
+			var formData = new FormData();
+			formData.append("file", data);
+			xhr.send(formData);
+			}).always(function () {
+			this.destroy();
+			});
+			
+			}
+
+
+app view xml
+
+						<Table width="auto" id="productlist" items="{/A_PlannedOrder}" updateFinished="onListUpdateFinished" noDataText="No planned orders data"
+						class="sapUiResponsiveMargin">
+						<headerToolbar>
+						<Toolbar id="lineItemsToolbar">
+						<Button text="Upload to Google Drive" press="onUploadToGoogleDrive"></Button>
+						</Toolbar>
+						</headerToolbar>
+						<columns>
+						<Column>
+						<Text text="Planned Order"/>
+						</Column>
+						<Column minScreenWidth="Tablet" demandPopin="true">
+						<Text text="Supplier"/>
+						</Column>
+						<Column minScreenWidth="Tablet" demandPopin="true" hAlign="End">
+						<Text text="Quantity"/>
+						</Column>
+						</columns>
+						<items>
+						<ColumnListItem>
+						<cells>
+						<ObjectIdentifier title="{PlannedOrder}-{Material}" text="{MaterialName}"/>
+						<Text text="{ProductionPlant}"/>
+						<ObjectNumber number="{ path: 'TotalQuantity'}"/>
+						</cells>
+						</ColumnListItem>
+						</items>
+						</Table>
