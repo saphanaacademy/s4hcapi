@@ -11,8 +11,8 @@ This info file contains links to product downloads, help docs, etc. relevant to 
 
 ## <a name="gss4hapi"></a>S4H Cloud APIs and Open Connectors Application
 1) [Video 1 - Getting Started with Open Connectors and the Google Drive API](#v1ocgda)
-1) [Video 2 - Creating a SAPUi5 App in SAP Cloud Platform - Consuming an S4HC API](#v2sascp)
-1) [Video 3 - Finishing up the SAPui5 - Adding in the Open Connectors Pieces](#v3sascpoc)
+1) [Video 2 - Creating a SAPUI5 App in SAP Cloud Platform - Consuming an S4HC API](#v2sascp)
+1) [Video 3 - Finishing up the SAPUi5 App - Adding in the Open Connectors Pieces](#v3sascpoc)
 
 #### Prerequisites
 
@@ -23,9 +23,9 @@ This info file contains links to product downloads, help docs, etc. relevant to 
 
 #### <a name="v1ocgda"></a>Video 1 - Getting Started with Open Connectors and the Google Drive API
 
-#### <a name="v2sascp"></a>Video 2 - Creating a SAPUi5 App in SAP Cloud Platform - Consuming an S4HC API
+#### <a name="v2sascp"></a>Video 2 - Creating a SAPUI5 App in SAP Cloud Platform - Consuming an S4HC API
 
-#### <a name="v3sascpoc"></a>Video 3 - Finishing up the SAPui5 - Adding in the Open Connectors Pieces
+#### <a name="v3sascpoc"></a>Video 3 - Finishing up the SAPUi5 App - Adding in the Open Connectors Pieces
 
 #### Additional Information
 
