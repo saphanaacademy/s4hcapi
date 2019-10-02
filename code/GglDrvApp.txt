@@ -1,6 +1,42 @@
-neo app json routes added 
+**********************
+**
+** part 1 > App View Table (xml)
+**
+**********************
 
-*** needs to be edited
+<Table width="auto" id="productlist" items="{/A_PlannedOrder}" updateFinished="onListUpdateFinished" noDataText="No planned orders data" class="sapUiResponsiveMargin">
+	<headerToolbar>
+		<Toolbar id="lineItemsToolbar">
+			<Button text="Upload to Google Drive" press="onUploadToGoogleDrive"></Button>
+		</Toolbar>
+	</headerToolbar>
+	<columns>
+		<Column>
+			<Text text="Planned Order"/>
+		</Column>
+		<Column minScreenWidth="Tablet" demandPopin="true">
+			<Text text="Supplier"/>
+		</Column>
+		<Column minScreenWidth="Tablet" demandPopin="true" hAlign="End">
+			<Text text="Quantity"/>
+		</Column>
+	</columns>
+	<items>
+		<ColumnListItem>
+			<cells>
+				<ObjectIdentifier title="{PlannedOrder}-{Material}" text="{MaterialName}"/>
+				<Text text="{ProductionPlant}"/>
+				<ObjectNumber number="{ path: 'TotalQuantity'}"/>
+			</cells>
+		</ColumnListItem>
+	</items>
+</Table>
+
+**********************
+**
+** part 2 > Neo-App (json)
+**
+**********************
 
     {
       "path": "/DPE_OPENCONN_APIM_DEST",
@@ -10,47 +46,14 @@ neo app json routes added
       },
       "description": "Open Connectors"
     },
-    {
-      "path": "/s4hanacloud",
-      "target": {
-        "type": "destination",
-        "name": "DPE_S4HC_DEST",
-        "entryPath": "/i818645trial/s4hanacloud"
-      },
-      "description": "S4HANA Cloud Destination"
-    },
-    {
-      "path": "/DPE_S4HC_PLANNEDORDERS_DEST",
-      "target": {
-        "type": "destination",
-        "name": "DPE_S4HC_PLANNEDORDERS_DEST"
-      },
-      "description": "DPE_S4HC_PLANNEDORDERS_DEST"
-    },
-    {
-      "path": "/DPE_S4HC_DEST",
-      "target": {
-        "type": "destination",
-        "name": "DPE_S4HC_DEST"
-      },
-      "description": "DPE_S4HC_DEST"
-    }
 
 
+**********************
+**
+** part 3 > App Controller (js)
+**
+**********************
 
-manifest json
-
-		"dataSources": {
-			"API_PLANNED_ORDERS": {
-				"uri": "/DPE_S4HC_DEST/i818645trial/s4hanacloud/sap/opu/odata/sap/API_PLANNED_ORDERS/",
-				"type": "OData",
-				"settings": {
-					"localUri": "localService/API_PLANNED_ORDERS/metadata.xml"
-				}
-			}
-		}
-
-app controller
 
 		onUploadToGoogleDrive: function () {
 
@@ -127,35 +130,3 @@ app controller
 			});
 			
 			}
-
-
-app view xml
-
-						<Table width="auto" id="productlist" items="{/A_PlannedOrder}" updateFinished="onListUpdateFinished" noDataText="No planned orders data"
-						class="sapUiResponsiveMargin">
-						<headerToolbar>
-						<Toolbar id="lineItemsToolbar">
-						<Button text="Upload to Google Drive" press="onUploadToGoogleDrive"></Button>
-						</Toolbar>
-						</headerToolbar>
-						<columns>
-						<Column>
-						<Text text="Planned Order"/>
-						</Column>
-						<Column minScreenWidth="Tablet" demandPopin="true">
-						<Text text="Supplier"/>
-						</Column>
-						<Column minScreenWidth="Tablet" demandPopin="true" hAlign="End">
-						<Text text="Quantity"/>
-						</Column>
-						</columns>
-						<items>
-						<ColumnListItem>
-						<cells>
-						<ObjectIdentifier title="{PlannedOrder}-{Material}" text="{MaterialName}"/>
-						<Text text="{ProductionPlant}"/>
-						<ObjectNumber number="{ path: 'TotalQuantity'}"/>
-						</cells>
-						</ColumnListItem>
-						</items>
-						</Table>
