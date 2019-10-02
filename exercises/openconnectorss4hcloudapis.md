@@ -18,12 +18,14 @@ This info file contains links to product downloads, help docs, etc. relevant to 
 
 * You have access to a configured S/4HANA Cloud (non-Trial) system.
 * You have set up an SAP Cloud Platform (Trial or Starter) account.
+* You have completed the steps in [Getting Started with the S/4HANA Cloud API's](gettingstarteds4hcloudapis.md)
+* You have a Google account.
 
-#### <a name="v1ocgda"></a>Video 1 - 
+#### <a name="v1ocgda"></a>Video 1 - Getting Started with Open Connectors and the Google Drive API
 
-#### <a name="v2sascp"></a>Video 2 - 
+#### <a name="v2sascp"></a>Video 2 - Creating a SAPUi5 App in SAP Cloud Platform - Consuming an S4HC API
 
-#### <a name="v3sascpoc"></a>Video 3 - 
+#### <a name="v3sascpoc"></a>Video 3 - Finishing up the SAPui5 - Adding in the Open Connectors Pieces
 
 #### Additional Information
 
