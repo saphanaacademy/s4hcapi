@@ -25,8 +25,8 @@ This info file contains links to code, help docs, etc. relevant to the Developin
 
 Relevant Links:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SAP Open Connectors](https://help.openconnectors.ext.hana.ondemand.com/home)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Cloud Elements](https://cloud-elements.com/)
+* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SAP Open Connectors](https://help.openconnectors.ext.hana.ondemand.com/home)
+* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Cloud Elements](https://cloud-elements.com/)
 
 #### <a name="v2sascp"></a>Video 2 - Creating a SAPUI5 App in SAP Cloud Platform - Consuming an S4HC API Service
 
