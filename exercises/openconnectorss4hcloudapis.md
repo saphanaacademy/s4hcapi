@@ -30,6 +30,8 @@ Relevant Links:
 
 #### <a name="v2sascp"></a>Video 2 - Creating a SAPUI5 App in SAP Cloud Platform - Consuming an S4HC API Service
 
+*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Code Used in This Video](/code/GglDrvApp.txt)
+
 #### <a name="v3sascpoc"></a>Video 3 - Finishing up the SAPUI5 App - Adding in the Open Connectors Pieces
 
 #### Additional Information
