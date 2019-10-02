@@ -48,6 +48,8 @@ Relevant Links:
 
 #### <a name="v3sascpoc"></a>Video 3 - Finishing up the SAPUI5 App - Adding in the Open Connectors Pieces
 
+In the next video we will connect our SAPUI5 app up to our Google Drive application. We will once again use the SAP API Management service to act as a proxy between the application end points.
+
 #### Additional Information
 
 This video series is based on the following blogs.
