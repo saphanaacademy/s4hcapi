@@ -1,29 +1,29 @@
 <table width=100% border=0>
 <tr ><td colspan=2><h1>SAP Cloud Platform</h1></td></tr>
-<tr><td><h3>Open Connectors</h3></td><td width=66%></br>&nbsp;S4H Cloud APIs and Open Connectors Application</td>
+<tr><td><h3>Open Connectors</h3></td><td width=66%></br>&nbsp;S4HC APIs and Open Connectors Dev</td>
 </table>
 
 ## Description
 
-This info file contains links to product downloads, help docs, etc. relevant to the S/4HANA Cloud API video series and other SAP Cloud Platform video series. Please note that this info file is a work in progress and subject to changes and additions.
+This info file contains links to product downloads, help docs, etc. relevant to the Developing with the S4H Cloud APIs and Open Connectors series. Please note that this info file is a work in progress and subject to changes and additions.
 
 <img src="../images/api.jpg">
 
 ## <a name="gss4hapi"></a>S4H Cloud APIs and Open Connectors Application
-1) [Video 1 - Getting Started with the SAP API Business Hub](#v1apibh)
-1) [Video 2 - Creating a Fiori App in SAP Cloud Platform](#v2cfa)
-1) [Video 3 - Creating a Communication Arrangement on Your S/4HANA Cloud System](#v3cca)
+1) [Video 1 - Getting Started with Open Connectors and the Google Drive API](#v1ocgda)
+1) [Video 2 - Creating a SAPUi5 App in SAP Cloud Platform - Consuming an S4HC API](#v2sascp)
+1) [Video 3 - Finishing up the SAPui5 - Adding in the Open Connectors Pieces](#v3sascpoc)
 
 #### Prerequisites
 
 * You have access to a configured S/4HANA Cloud (non-Trial) system.
 * You have set up an SAP Cloud Platform (Trial or Starter) account.
 
-#### <a name="v1apibh"></a>Video 1 - 
+#### <a name="v1ocgda"></a>Video 1 - 
 
-#### <a name="v2cfa"></a>Video 2 - 
+#### <a name="v2sascp"></a>Video 2 - 
 
-#### <a name="v3cca"></a>Video 3 - 
+#### <a name="v3sascpoc"></a>Video 3 - 
 
 #### Additional Information
 
