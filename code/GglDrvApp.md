@@ -5,7 +5,6 @@ Part 1 > App View Table (xml)
 **********************
 
 ```
-
 <Table width="auto" id="productlist" items="{/A_PlannedOrder}" updateFinished="onListUpdateFinished" noDataText="No planned orders data" class="sapUiResponsiveMargin">
 	<headerToolbar>
 		<Toolbar id="lineItemsToolbar">
@@ -33,7 +32,6 @@ Part 1 > App View Table (xml)
 		</ColumnListItem>
 	</items>
 </Table>
-
 ```
 
 **********************
