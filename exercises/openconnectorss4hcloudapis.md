@@ -23,6 +23,11 @@ This info file contains links to code, help docs, etc. relevant to the Developin
 
 #### <a name="v1ocgda"></a>Video 1 - Getting Started with Open Connectors - Using the Google Drive API
 
+Relevant Links:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SAP Open Connectors](https://help.openconnectors.ext.hana.ondemand.com/home)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Cloud Elements](https://cloud-elements.com/)
+
 #### <a name="v2sascp"></a>Video 2 - Creating a SAPUI5 App in SAP Cloud Platform - Consuming an S4HC API Service
 
 #### <a name="v3sascpoc"></a>Video 3 - Finishing up the SAPUI5 App - Adding in the Open Connectors Pieces
