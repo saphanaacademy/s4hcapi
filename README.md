@@ -10,4 +10,4 @@ This ReadMe file contains links to the S/4HANA Cloud API video series and other 
 ## <a name="s4hcvsl"></a>S/4HANA Cloud Video Series List
 1) [Getting Started with the S/4HANA Cloud API's](exercises/gettingstarteds4hcloudapis.md)
 1) Getting Started with the SAP Open Connectors API's (Coming Soon)
-1) [Developing with the S4H Cloud APIs and Open Connectors](exercises/openconnectorss4hcloudapis.md)
+1) [Work in Progress >> Developing with the S4H Cloud APIs and Open Connectors](exercises/openconnectorss4hcloudapis.md)
