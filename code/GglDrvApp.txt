@@ -4,6 +4,7 @@
 **
 **********************
 
+```
 <Table width="auto" id="productlist" items="{/A_PlannedOrder}" updateFinished="onListUpdateFinished" noDataText="No planned orders data" class="sapUiResponsiveMargin">
 	<headerToolbar>
 		<Toolbar id="lineItemsToolbar">
@@ -31,6 +32,7 @@
 		</ColumnListItem>
 	</items>
 </Table>
+```
 
 **********************
 **
@@ -38,6 +40,7 @@
 **
 **********************
 
+```
     {
       "path": "/DPE_OPENCONN_APIM_DEST",
       "target": {
@@ -46,7 +49,7 @@
       },
       "description": "Open Connectors"
     },
-
+```
 
 **********************
 **
@@ -54,7 +57,7 @@
 **
 **********************
 
-
+```
 		onUploadToGoogleDrive: function () {
 
 			sap.ui.core.BusyIndicator.show();
@@ -130,3 +133,4 @@
 			});
 			
 			}
+```
