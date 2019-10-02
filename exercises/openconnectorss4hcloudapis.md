@@ -29,7 +29,7 @@ The application is able to interact with the Google Drive API through the SAP Op
 
 #### <a name="v1ocgda"></a>Video 1 - Getting Started with Open Connectors - Using the Google Drive API
 
-
+In this video we will create a new project in the Google API's and set up authentication to this app through Cloud Elements.  We will configure a new SCP Cloud Connector instance using the Google Drive connector using oauth via Cloud Elements.
 
 Relevant Links:
 
