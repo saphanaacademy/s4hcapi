@@ -7,6 +7,12 @@
 
 This info file contains links to code, help docs, etc. relevant to the Developing with the S4H Cloud APIs and Open Connectors series. Please note that this info file is a work in progress and subject to changes and additions.
 
+We will build on elements from previous videos where we used the Planned Orders API and built a Destination off that managed API. 
+
+We will consume the Planned Orders API in a new SAPui5 application in the Neo environment in SAP Cloud Platform. The application will convert the data into comma separated format and then upload it as a .csv file into Google Drive.
+
+The application is able to interact with the Google Drive API through the SAP Open Connectors service which will be introduced in the first video.
+
 <img src="../images/api.jpg">
 
 ## <a name="gss4hapi"></a>S4H Cloud APIs and Open Connectors Application
@@ -22,6 +28,8 @@ This info file contains links to code, help docs, etc. relevant to the Developin
 * You have a Google account.
 
 #### <a name="v1ocgda"></a>Video 1 - Getting Started with Open Connectors - Using the Google Drive API
+
+
 
 Relevant Links:
 
