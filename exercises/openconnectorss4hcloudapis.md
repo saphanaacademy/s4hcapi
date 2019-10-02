@@ -30,6 +30,10 @@ Relevant Links:
 
 #### <a name="v2sascp"></a>Video 2 - Creating a SAPUI5 App in SAP Cloud Platform - Consuming an S4HC API Service
 
+In this video we will create a new SAPUI5 application that will consume an S/4HANA Cloud API. This will be based on the Planned Orders service that we have been using in our other getting started videos.
+
+We will build on elements from previous videos where we used the Planned Orders API and built a Destination off that managed API. We will show how to consume a service from that API in an SAPUI5 application.
+
 *  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Code Used in This Video](/code/GglDrvApp.txt)
 
 #### <a name="v3sascpoc"></a>Video 3 - Finishing up the SAPUI5 App - Adding in the Open Connectors Pieces
