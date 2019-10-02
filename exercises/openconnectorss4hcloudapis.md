@@ -5,7 +5,7 @@
 
 ## Description
 
-This info file contains links to product downloads, help docs, etc. relevant to the Developing with the S4H Cloud APIs and Open Connectors series. Please note that this info file is a work in progress and subject to changes and additions.
+This info file contains links to code, help docs, etc. relevant to the Developing with the S4H Cloud APIs and Open Connectors series. Please note that this info file is a work in progress and subject to changes and additions.
 
 <img src="../images/api.jpg">
 
