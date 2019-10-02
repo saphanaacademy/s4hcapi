@@ -44,7 +44,7 @@ We will build on elements from previous videos where we used the Planned Orders 
 
 Relevant Links:
 
-*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Code Used in This Video](/code/GglDrvApp.txt)
+*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Code Used in This Video](/code/GglDrvApp.md)
 
 #### <a name="v3sascpoc"></a>Video 3 - Finishing up the SAPUI5 App - Adding in the Open Connectors Pieces
 
