@@ -50,7 +50,7 @@ Part 2 > Neo-App (json)
 		"name": "DPE_APIM_DEST"
 	},
 	"description": "API Management"
-},
+}
 ```
 
 **********************
