@@ -44,12 +44,12 @@ Part 2 > Neo-App (json)
 
 ```
     {
-      "path": "/DPE_OPENCONN_APIM_DEST",
+      "path": "/DPE_APIM_DEST",
       "target": {
         "type": "destination",
-        "name": "DPE_OPENCONN_APIM_DEST"
+        "name": "DPE_APIM_DEST"
       },
-      "description": "Open Connectors"
+      "description": "API Management"
     },
 ```
 
@@ -116,16 +116,7 @@ Part 3 > App Controller (js)
 			}
 			};
 
-            //former auth works with unmanaged destination in conjunction with set request header below
-            //xhr.open('POST', '/DPE_OPENCONN_DEST/files?path=%2Fdata.csv', false);
-
-			// attempts after switching the api management                                 
-            //xhr.open('POST', '/DPE_OPENCONN_APIM_DEST/elements/api-v2/accounts/files/?path=%2Fdata.csv', false);
-            xhr.open('POST', '/DPE_OPENCONN_APIM_DEST/i818645trial/GoogleDrive/files/?path=%2Fdata.csv', false);
-
-            // set request header has been commented out as per part-4 blog
-            //xhr.setRequestHeader("Authorization", "User VruLSAqQijo8wVYegUYKw2TA7N/7B/drQ42JCh32vLo=, Organization 7dd69c8c0a831d0d651a8e4eb5838423, Element W8ko6IYJ9/K8t9X4Nfb9wiRz2ub5AazxdFsysDMBaww="
-             //);                          
+            		xhr.open('POST', '/DPE_OPENCONN_APIM_DEST/i818645trial/GoogleDrive/files/?path=%2Fdata.csv', false);
 
 			var formData = new FormData();
 			formData.append("file", data);
@@ -134,5 +125,5 @@ Part 3 > App Controller (js)
 			this.destroy();
 			});
 			
-			}
+		}
 ```
