@@ -60,6 +60,16 @@ Part 3 > App Controller (js)
 **********************
 
 ```
+sap.ui.define([
+	"sap/ui/core/mvc/Controller",
+	"sap/m/MessageToast",
+	"sap/ui/core/util/Export",
+	"sap/ui/core/util/ExportTypeCSV"	
+], function (Controller,MessageToast,Export,ExportTypeCSV) {
+	"use strict";
+```	
+
+```
 onUploadToGoogleDrive: function () {
 
 	sap.ui.core.BusyIndicator.show();
