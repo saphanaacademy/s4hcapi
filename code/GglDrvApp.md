@@ -116,7 +116,7 @@ Part 3 > App Controller (js)
 			}
 			};
 
-            		xhr.open('POST', '/DPE_OPENCONN_APIM_DEST/i818645trial/GoogleDrive/files/?path=%2Fdata.csv', false);
+            		xhr.open('POST', '/DPE_OPENCONN_APIM_DEST</yourid#trial>/GoogleDrive/files/?path=%2Fdata.csv', false);
 
 			var formData = new FormData();
 			formData.append("file", data);
