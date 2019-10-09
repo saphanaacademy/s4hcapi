@@ -135,7 +135,7 @@ onUploadToGoogleDrive: function () {
 			}
 		};
 
-		xhr.open('POST', '/<your API Management Destination name></your ID# + trial>/GoogleDrive/files/?path=%2Fdata.csv', false);
+		xhr.open('POST', '/<your API Management Destination name></your SCP Account ID# + trial>/GoogleDrive/files/?path=%2Fdata.csv', false);
 
 		var formData = new FormData();
 		formData.append("file", data);
