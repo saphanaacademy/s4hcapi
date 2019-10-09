@@ -44,10 +44,10 @@ Part 2 > Neo-App (json)
 
 ```
 {
-	"path": "/DPE_APIM_DEST",
+	"path": "/<your API Management Destination name>",
 	"target": {
 		"type": "destination",
-		"name": "DPE_APIM_DEST"
+		"name": "<your API Management Destination name>"
 	},
 	"description": "API Management"
 }
@@ -135,7 +135,7 @@ onUploadToGoogleDrive: function () {
 			}
 		};
 
-		xhr.open('POST', '/DPE_OPENCONN_APIM_DEST</yourid#trial>/GoogleDrive/files/?path=%2Fdata.csv', false);
+		xhr.open('POST', '/<your API Management Destination name></your id # + trial>/GoogleDrive/files/?path=%2Fdata.csv', false);
 
 		var formData = new FormData();
 		formData.append("file", data);
