@@ -46,7 +46,14 @@ In this fourth video, we will introduce the SAP Cloud Platform API Management Se
 
 #### <a name="v5cds"></a>Video 5 - Creating a Destination in SAP Cloud Platform
  
-In this fifth video, we will finish up our look at working with APIs by updating our sandbox example to use a Destination in SAP Cloud Platform to connect our remote system to our web application.
+Code for Manifest JSON file.
+
+```
+		"resources": "resources.json",
+		"dataSources": {
+			"mainService": {
+				"uri": "/s4hanacloud/sap/opu/odata/sap/API_PLANNED_ORDERS",
+```
 
 
 #### Additional Information
