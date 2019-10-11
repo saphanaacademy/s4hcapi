@@ -46,7 +46,7 @@ In this fourth video, we will introduce the SAP Cloud Platform API Management Se
 
 #### <a name="v5cds"></a>Video 5 - Creating a Destination in SAP Cloud Platform
  
-Code for manifest.json file.
+Code for manifest.json file. To be added below the "resources": "resources.json" line.
 
 ```
 "dataSources": {
