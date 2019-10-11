@@ -14,7 +14,7 @@ This info file contains links to product downloads, help docs, etc. relevant to 
 1) [Video 2 - Creating a Fiori App in SAP Cloud Platform](#v2cfa)
 1) [Video 3 - Creating a Communication Arrangement on Your S/4HANA Cloud System](#v3cca)
 1) [Video 4 - Managing your API with SAP API Management Service](#v4ams)
-1) [Video 5 - Creating a Destination in SAP Cloud Platform](#v5cds>
+1) [Video 5 - Creating a Destination in SAP Cloud Platform](#v5cds)
 
 
 #### Prerequisites
