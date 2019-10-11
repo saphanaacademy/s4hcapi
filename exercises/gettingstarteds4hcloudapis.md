@@ -13,6 +13,9 @@ This info file contains links to product downloads, help docs, etc. relevant to 
 1) [Video 1 - Getting Started with the SAP API Business Hub](#v1apibh)
 1) [Video 2 - Creating a Fiori App in SAP Cloud Platform](#v2cfa)
 1) [Video 3 - Creating a Communication Arrangement on Your S/4HANA Cloud System](#v3cca)
+1) [Video 4 - Managing your API with SAP API Management Service](#v4ams)
+1) [Video 5 - Creating a Destination in SAP Cloud Platform(#v5cds>
+
 
 #### Prerequisites
 
@@ -36,6 +39,15 @@ For online help for creating custom Business Roles in S/4HANA Cloud in the Maint
 For online help on roles required for creating Communication Arrangements go to [help.sap.com](https://help.sap.com/viewer/search?q=Communication%20Arrangement%20S4HANA%20Cloud) and click on "Creating a Communication Arrangement in SAP S/4HANA Cloud".
 
 For more info on Communication Arrangements please see [this blog](https://blogs.sap.com/2017/09/15/what-is-what-your-quick-reference-to-communication-management-and-identity-access-management-artifacts-in-s4hana/).
+
+#### <a name="v4ams"></a>Video 4 - Managing your API with SAP API Management Service
+
+In this fourth video, we will introduce the SAP Cloud Platform API Management Service for managing our API service.
+
+#### <a name="v5cds"></a>Video 5 - Creating a Destination in SAP Cloud Platform
+ 
+In this fifth video, we will finish up our look at working with APIs by updating our sandbox example to use a Destination in SAP Cloud Platform to connect our remote system to our web application.
+
 
 #### Additional Information
 
