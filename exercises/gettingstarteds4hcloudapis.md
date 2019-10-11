@@ -46,13 +46,19 @@ In this fourth video, we will introduce the SAP Cloud Platform API Management Se
 
 #### <a name="v5cds"></a>Video 5 - Creating a Destination in SAP Cloud Platform
  
-Code for Manifest JSON file.
+Code for manifest.json file.
 
 ```
-		"resources": "resources.json",
-		"dataSources": {
-			"mainService": {
-				"uri": "/s4hanacloud/sap/opu/odata/sap/API_PLANNED_ORDERS",
+"dataSources": {
+	"mainService": {
+		"uri": "/s4hanacloud/sap/opu/odata/sap/API_PLANNED_ORDERS",
+		"type": "OData",
+		"settings": {
+			"odataVersion": "2.0",
+			"localUri": "localService/metadata.xml"
+		}
+	}
+},
 ```
 
 
