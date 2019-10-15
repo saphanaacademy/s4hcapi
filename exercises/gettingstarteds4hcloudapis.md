@@ -24,15 +24,21 @@ This info file contains links to product downloads, help docs, etc. relevant to 
 
 #### <a name="v1apibh"></a>Video 1 - Getting Started with the SAP API Business Hub
 
+[Click here to go to the video.](https://www.youtube.com/watch?v=4zUmzzNrgVw&list=PLkzo92owKnVy3XuZSKWezGoPXTHfTT_dj)
+
 You can access the [SAP API Business Hub here](https://api.sap.com/).
 
 You will need to install [PostMan](https://www.getpostman.com/downloads/) to follow along with some of the testing exercises in this video series.
 
 #### <a name="v2cfa"></a>Video 2 - Creating a Fiori App in SAP Cloud Platform
 
+[Click here to go to the video.](https://www.youtube.com/watch?v=tCBRkkVucbE&list=PLkzo92owKnVy3XuZSKWezGoPXTHfTT_dj)
+
 You can create a [SAP Cloud Platform Trial Account here](https://account.hanatrial.ondemand.com/cockpit/#/home/trialhome) if you don't already have one or if you don't have a starter or development system.
 
 #### <a name="v3cca"></a>Video 3 - Creating a Communication Arrangement on Your S/4HANA Cloud System
+
+[Click here to go to the video.](https://www.youtube.com/watch?v=mhtqPYQm98Y&list=PLkzo92owKnVy3XuZSKWezGoPXTHfTT_dj)
 
 For online help for creating custom Business Roles in S/4HANA Cloud in the Maintain Business Role App please [do a browser search](https://www.google.com/search?q=help.sap.com%20s4hana%20cloud%20maintain%20business%20role) and click on the link to "Maintain Business Roles SAP Help Portal".
 
@@ -42,9 +48,13 @@ For more info on Communication Arrangements please see [this blog](https://blogs
 
 #### <a name="v4ams"></a>Video 4 - Managing your API with SAP API Management Service
 
+[Click here to go to the video.](https://www.youtube.com/watch?v=8TSU-lMNf_Y&list=PLkzo92owKnVy3XuZSKWezGoPXTHfTT_dj)
+
 In this fourth video, we will introduce the SAP Cloud Platform API Management Service for managing our API service.
 
 #### <a name="v5cds"></a>Video 5 - Creating a Destination in SAP Cloud Platform
+
+[Click here to go to the video.](https://www.youtube.com/watch?v=lvJHQtqDlEs&list=PLkzo92owKnVy3XuZSKWezGoPXTHfTT_dj)
  
 Code for manifest.json file. To be added below the "resources": "resources.json" line.
 
