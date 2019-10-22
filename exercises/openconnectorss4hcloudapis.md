@@ -13,7 +13,7 @@ We will consume the Planned Orders API in a new SAPui5 application in the Neo en
 
 The application is able to interact with the Google Drive API through the SAP Open Connectors service which will be introduced in the first video.
 
-<img src="../images/api.jpg">
+<img src="../images/apiocsapui5.png">
 
 ## <a name="gss4hapi"></a>S4H Cloud APIs and Open Connectors Application
 1) [Video 1 - Getting Started with Open Connectors - Using the Google Drive API](#v1ocgda)
