@@ -9,4 +9,5 @@ This ReadMe file contains links to the S/4HANA Cloud API video series and other 
 
 ## <a name="s4hcvsl"></a>S/4HANA Cloud Video Series List
 1) [Getting Started with the S/4HANA Cloud API's](exercises/gettingstarteds4hcloudapis.md)
+1) Getting Started with the S4H Cloud APIs in Cloud Foundry Apps (Coming Soon)
 1) [Developing with the S4H Cloud APIs and Open Connectors](exercises/openconnectorss4hcloudapis.md)
