@@ -1,6 +1,6 @@
 <table width=100% border=0>
 <tr ><td colspan=2><h1>SAP S/4HANA Cloud</h1></td></tr>
-<tr><td><h3>S/4HANA Cloud API's</h3></td><td width=66%></br>&nbsp;Extending S/4HANA Cloud with the Cloud SDK in Cloud Foundry/td>
+<tr><td><h3>S/4HANA Cloud API's</h3></td><td width=66%></br>&nbsp;Extending S/4HANA Cloud with the Cloud SDK in Cloud Foundry</td>
 </table>
 
 ## Description
