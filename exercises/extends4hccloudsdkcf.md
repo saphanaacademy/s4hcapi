@@ -17,7 +17,7 @@ This app will consume data from the S/4HANA Cloud's Planned Orders API. A Commun
 
 #### Prerequisites
 
-* [Video Series: Getting Started with the S/4HANA Cloud API's](../gettingstarteds4hcloudapis.md)
+* [Video Series: Getting Started with the S/4HANA Cloud API's](../exercises/gettingstarteds4hcloudapis.md)
 * S/4HANA Cloud System (sorry, not the trial version)
 * SAP Cloud Platform (trial system is OK)
 
