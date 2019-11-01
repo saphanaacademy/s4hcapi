@@ -25,7 +25,8 @@ This app will consume data from the S/4HANA Cloud's Planned Orders API. A Commun
 
 [Click here to go to the video.](https://github.com/saphanaacademy/s4hcapi/edit/master/exercises/extends4hccloudsdkcf.md)
 
-
+*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[More info on Cloud SDK](https://help.sap.com/viewer/search?q=sap%20cloud%20sdk)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Select SAP Cloud SDK in Products Section)
 
 #### <a name="v2acc"></a>Video 2 - Adding Custom Code to our Node JS App
 
