@@ -33,6 +33,6 @@ This app will consume data from the S/4HANA Cloud's Planned Orders API. A Commun
 
 Relevant Links:
 
-*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Code Used in This Video](/code/PPApp1.md)
+*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Code Used in This Video](/code/PPApp1.txt)
 
 
