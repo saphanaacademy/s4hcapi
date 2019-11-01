@@ -7,7 +7,7 @@
 
 This info file contains links to product downloads, help docs, etc. relevant to the S/4HANA Cloud API video series and other S/4HANA Cloud video series. Please note that this info file is a work in progress and subject to changes and additions.
 
-<img src="../images/api.jpg">
+<img src="../images/extends4hccloudsdkcf.jpg">
 
 ## <a name="gss4hapi"></a>Extending S/4HANA Cloud with the Cloud SDK in a Cloud Foundry App
 1) [Video 1 - Getting Started with the SAP API Business Hub](#v1apibh)
