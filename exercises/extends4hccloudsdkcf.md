@@ -18,21 +18,21 @@ This app will consume data from the S/4HANA Cloud's Planned Orders API. A Commun
 #### Prerequisites
 
 * [Video Series: Getting Started with the S/4HANA Cloud API's](../exercises/gettingstarteds4hcloudapis.md)
-* S/4HANA Cloud System (sorry, not the trial version)
-* SAP Cloud Platform (trial system is OK)
+* S/4HANA Cloud System (sorry, not the trial version as you need to do some admin tasks)
+* SAP Cloud Platform (Cloud Foundry, trial system is OK)
 
 #### <a name="v1njsa"></a>Video 1 - Creating a Node JS Application in Cloud Foundry
 
 [Click here to go to the video.](https://github.com/saphanaacademy/s4hcapi/edit/master/exercises/extends4hccloudsdkcf.md)
 
-You can access the [SAP API Business Hub here](https://api.sap.com/).
 
-You will need to install [PostMan](https://www.getpostman.com/downloads/) to follow along with some of the testing exercises in this video series.
 
 #### <a name="v2acc"></a>Video 2 - Adding Custom Code to our Node JS App
 
 [Click here to go to the video.](https://github.com/saphanaacademy/s4hcapi/edit/master/exercises/extends4hccloudsdkcf.md)
 
-You can create a [SAP Cloud Platform Trial Account here](https://account.hanatrial.ondemand.com/cockpit/#/home/trialhome) if you don't already have one or if you don't have a starter or development system.
+Relevant Links:
+
+*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Code Used in This Video](/code/PPApp1.md)
 
 
