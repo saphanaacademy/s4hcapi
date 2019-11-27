@@ -23,7 +23,7 @@ This app will consume data from the S/4HANA Cloud's Planned Orders API. A Commun
 
 #### <a name="v1njsa"></a>Video 1 - Creating a Node JS Application in Cloud Foundry
 
-[Click here to go to the video.](https://github.com/saphanaacademy/s4hcapi/edit/master/exercises/extends4hccloudsdkcf.md)
+[Click here to go to the video.](https://www.youtube.com/watch?v=738IY6RK-GE)
 
 Relevant Links:
 
@@ -32,7 +32,7 @@ Relevant Links:
 
 #### <a name="v2acc"></a>Video 2 - Adding Custom Code to our Node JS App
 
-[Click here to go to the video.](https://github.com/saphanaacademy/s4hcapi/edit/master/exercises/extends4hccloudsdkcf.md)
+[Click here to go to the video.](https://www.youtube.com/watch?v=YwQORe3xSVY)
 
 Relevant Links:
 
