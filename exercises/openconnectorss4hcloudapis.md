@@ -32,6 +32,8 @@ The application is able to interact with the Google Drive API through the SAP Op
 
 In this video we will create a new project in the Google API's and set up authentication to this app through Cloud Elements.  We will configure a new SCP Cloud Connector instance using the Google Drive connector using oauth via Cloud Elements.
 
+[Click here to go to the video.](https://www.youtube.com/watch?v=GGo2eVk3Y2c)
+
 Relevant Links:
 
 * &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SAP Open Connectors](https://help.openconnectors.ext.hana.ondemand.com/home)
@@ -43,6 +45,8 @@ In this video we will create a new SAPUI5 application that will consume an S/4HA
 
 We will build on elements from previous videos where we used the Planned Orders API and built a Destination off that managed API. We will show how to consume a service from that API in an SAPUI5 application.
 
+[Click here to go to the video.](https://www.youtube.com/watch?v=4dDHaBk5Up8)
+
 Relevant Links:
 
 *  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Code Used in This Video](/code/GglDrvApp.md)
@@ -50,6 +54,8 @@ Relevant Links:
 #### <a name="v3sascpoc"></a>Video 3 - Finishing up the SAPUI5 App - Adding in the Open Connectors Pieces
 
 In the next video we will connect our SAPUI5 app up to our Google Drive application. We will once again use the SAP API Management service to act as a proxy between the application end points.
+
+[Click here to go to the video.](https://www.youtube.com/watch?v=wGsZfC0Hz4A)
 
 #### Additional Information
 
