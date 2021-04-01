@@ -3,7 +3,10 @@
 <tr><td><h3>S/4HANA Cloud API's</h3></td><td width=66%></br>&nbsp;Discover, Explore and Consume Cloud APIs</td>
 </table>
 
-## NOTE: We apologize as this video series is no longer valid and the videos have been removed. Please check the HANA Academy's YouTube channel for updated development videos.
+
+<br><br>
+## NOTE: We apologize as this video series is no longer valid and the videos have been removed. Please check [the HANA Academy's YouTube channel](https://academy.saphana.com) for updated development videos.
+<br><br><br><br><br>
 
 ## Description
 
