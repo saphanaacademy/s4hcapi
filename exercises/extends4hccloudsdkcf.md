@@ -3,6 +3,11 @@
 <tr><td><h3>S/4HANA Cloud API's</h3></td><td width=70%></br>&nbsp;Extending S/4HANA Cloud with the Cloud SDK in Cloud Foundry</td>
 </table>
 
+
+<br><br>
+## NOTE: We apologize as this video series is no longer valid and the videos have been removed. Please check [the HANA Academy's YouTube channel](https://academy.saphana.com) for updated development videos.
+<br><br><br><br><br>
+
 ## Description
 
 In this video sub-set we will be showing how to get started using the Cloud SDK for S/4HANA Cloud. We will create a simple Node.js application in the SAP Cloud Platform's Cloud Foundry environment. 
