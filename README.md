@@ -3,6 +3,8 @@
 <tr><td><h3>Partner Video Series</h3></td><td width=66%></br>&nbsp;Discover, Explore and Consume Cloud APIs</td>
 </table>
 
+## NOTE: We apologize as this video series is no longer valid and the videos have been removed. Please check the HANA Academy's YouTube channel for updated development videos.
+
 ## Description
 
 This ReadMe file contains links to the S/4HANA Cloud API video series and other S/4HANA Cloud video series. Please note that this info file is a work in progress and subject to changes and additions.
