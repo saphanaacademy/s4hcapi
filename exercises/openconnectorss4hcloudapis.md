@@ -3,6 +3,12 @@
 <tr><td><h3>Open Connectors</h3></td><td width=66%></br>&nbsp;S4HC APIs and Open Connectors Dev</td>
 </table>
 
+
+<br><br>
+## NOTE: We apologize as this video series is no longer valid and the videos have been removed. Please check [the HANA Academy's YouTube channel](https://academy.saphana.com) for updated development videos.
+<br><br><br><br><br>
+
+
 ## Description
 
 This info file contains links to code, help docs, etc. relevant to the Developing with the S4H Cloud APIs and Open Connectors series. Please note that this info file is a work in progress and subject to changes and additions.
